@@ -8,10 +8,10 @@ This env supports Python, Bash & R.
 
 With the extension [jupyter-archive](https://github.com/jupyterlab-contrib/jupyter-archive)
 
-On the file panel, right clic on a directory and select *Download as an archive*.
+In the File Browser (left panel), open a directory, right clic and select *Download Current Folder as an archive*.
 
 ### Variable inspector
 
 With [jupyterlab_variableinspector](https://github.com/lckr/jupyterlab-variableInspector)
 
-Open a Python or R Jupyter notebook. Right clic and select *Open Variable inspector*.
+Open a Python or R Jupyter notebook (Bash not supported). Right clic and select *Open Variable Inspector*.

@@ -1,4 +1,4 @@
-name: plasmabio-template-python
+name: plasma-template-crash-test
 # channels priority
 # see https://bioconda.github.io/
 # conda-forge has highest priority
@@ -22,4 +22,10 @@ dependencies:
   - pandas
   - matplotlib
   - ipywidgets>=7.6,<8
+  # R environment
+  - r-irkernel
+  - r-base>=4
+  - r-tidyverse
+  - pip:
+    - bash_kernel
 

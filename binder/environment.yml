@@ -26,6 +26,12 @@ dependencies:
   - r-irkernel
   - r-base>=4
   - r-tidyverse
+  # Variable inspector for R
+  - r-repr
+  # Jupyter archive
+  - jupyter-archive
   - pip:
     - bash_kernel
+    # Variable inspector
+    - lckr-jupyterlab-variableinspector
 
